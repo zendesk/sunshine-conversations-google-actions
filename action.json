@@ -1,0 +1,21 @@
+{
+  "actions": [
+    {
+      "description": "Default Welcome Intent",
+      "name": "MAIN",
+      "fulfillment": {
+        "conversationName": "YOUR_PROJECT_NAME"
+      },
+      "intent": {
+        "name": "actions.intent.MAIN"
+      }
+    }
+  ],
+  "conversations": {
+    "YOUR_PROJECT_NAME": {
+      "name": "YOUR_PROJECT_NAME",
+      "url": "YOUR_ENDPOINT"
+    }
+  },
+  "locale": "en"
+}
